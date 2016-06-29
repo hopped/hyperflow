@@ -8,13 +8,13 @@ exports.amqp_url = AMQP_URL;
 exports.options = {};
 exports.options.workdir = WORKDIR;
 
-if (S3_BUCKET !== undefined && (typeof S3_BUCKET === 'string' || S3_BUCKET instanceof String)) {
+//if (S3_BUCKET !== undefined && (typeof S3_BUCKET === 'string' || S3_BUCKET instanceof String)) {
   exports.options.storage = 's3';
   exports.options.bucket = S3_BUCKET;
   exports.options.prefix = S3_PATH;
-} else {
-  exports.options.storage = 'local';
-}
+//} else {
+//  exports.options.storage = 'local';
+//}
 
 // Local storage
 // exports.options = {
