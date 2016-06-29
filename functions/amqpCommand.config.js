@@ -6,12 +6,12 @@ var S3_PATH   = process.env.S3_PATH;
 exports.amqp_url = AMQP_URL;
 
 exports.options = {};
-exports.options.workdir = WORKDIR;
+//exports.options.workdir = WORKDIR;
 
 //if (S3_BUCKET !== undefined && (typeof S3_BUCKET === 'string' || S3_BUCKET instanceof String)) {
-  exports.options.storage = 's3';
-  exports.options.bucket = 'paasage-bucket';
-  exports.options.prefix = 'results';
+//  exports.options.storage = 's3';/
+//  exports.options.bucket = 'paasage-bucket';
+//  exports.options.prefix = 'results';
 //} else {
 //  exports.options.storage = 'local';
 //}
