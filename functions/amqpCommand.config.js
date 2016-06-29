@@ -10,8 +10,8 @@ exports.options.workdir = WORKDIR;
 
 if (S3_BUCKET !== undefined && (typeof S3_BUCKET === 'string' || S3_BUCKET instanceof String)) {
   exports.options.storage = 's3';
-  exports.options.s3_bucket = S3_BUCKET;
-  exports.options.s3_path = S3_PATH;
+  exports.options.bucket = S3_BUCKET;
+  exports.options.prefix = S3_PATH;
 } else {
   exports.options.storage = 'local';
 }
