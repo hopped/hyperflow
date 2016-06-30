@@ -3,6 +3,8 @@ var WORKDIR   = process.env.WORKDIR;
 var S3_BUCKET = process.env.S3_BUCKET;
 var S3_PATH   = process.env.S3_PATH;
 
+console.log(process.env);
+
 exports.amqp_url = AMQP_URL;
 
 exports.options = {};
