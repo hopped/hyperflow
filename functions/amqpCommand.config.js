@@ -10,6 +10,7 @@ exports.options.workdir = WORKDIR;
 
 if (S3_BUCKET !== undefined && (typeof S3_BUCKET === 'string' || S3_BUCKET instanceof String)) {
   exports.options.storage = 's3';
+  exports.options.region = 'eu-west-1';
   exports.options.bucket = S3_BUCKET;
   exports.options.prefix = S3_PATH;
 } else {
