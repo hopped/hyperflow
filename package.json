@@ -19,7 +19,7 @@
     "xml2js": "0.2.7",
     "underscore": "1.x",
     "uuid": "",
-    "amqplib": "",
+    "amqplib": "0.4.2",
     "when": "",
     "eventemitter2": "",
     "optimist": "0.6.0",
