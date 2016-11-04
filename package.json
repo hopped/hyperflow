@@ -45,7 +45,7 @@
     "shell-quote": "1.4.2",
     "adm-zip": "0.4.7",
     "which": "1.2.11"
-  }
+  },
   "files": [
     "LICENSE",
     "README.md",
